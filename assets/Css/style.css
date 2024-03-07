@@ -7,7 +7,7 @@
 }
 
 .head {
-  background: linear-gradient(100deg, #8432df, #020747);
+  background: linear-gradient(100deg, #1355f8, #020747);
   width: 100%;
   height: 100vh;
 }
@@ -19,19 +19,20 @@
   width: 100%;
 }
 .navbar > .navtab {
-  background: #a054f7;
+  background-color: #9fb9f8;
   width: calc(100% - 60px);
   margin-top: 20px;
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+ backdrop-filter: blur(10px);
+  justify-content: space-between;
   backdrop-filter: blur(10px);
   border-radius: 50px;
 }
 .navbar > .navtab > img {
-  height: 150px;
-  margin: 5px 0;
+  height: 45px;
+  margin:10px 20px ;
 }
 .navbar > .navtab > .navlist {
   display: flex;
